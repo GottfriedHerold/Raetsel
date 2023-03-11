@@ -56,7 +56,7 @@ def normalizeEntry(inputstr: str) -> str:
     return x
 
 
-def createfromname(dictfilename:str, encoding = None):
+def createfromname(dictfilename:str, encoding = None) -> list[str]:
     """
     Loads dict from file
     """
@@ -81,7 +81,7 @@ def maketable(s: str) -> dict[str, int]:
         ret[c] = s.count(c)
     return ret
 
-def filter(L:list[str], fun) -> list[str]:
+def apply_filter(L:list[str], fun) -> list[str]:
     """
     filters a given list by applying the given filter fun
     """
@@ -163,7 +163,7 @@ def positionfilter(position:int, options:str):
 # print(d)
 
 DICT = createfromname(DICTFILE)
-BIGDICT = createfromname("german.dic", "latin-1")
+# BIGDICT = createfromname("german.dic", "latin-1")
 
 #d = filter(BIGDICT, positionfilter(1,"a"))
 #d = filter(d, positionfilter(3,"h"))
