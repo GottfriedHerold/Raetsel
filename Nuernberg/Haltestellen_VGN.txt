@@ -1,0 +1,711 @@
+Fürth Hans-Böckler-Str.
+Fürth Hauptbahnhof
+Fürth (Bay) Hbf
+Fürth Stadthalle
+Fürth Kulturforum
+Fürth Fürther Freiheit
+Fürth Maxstr. Süd
+Fürth Maxstr.
+Fürth Hirschenstr.
+Fürth Mathildenstr.
+Fürth Theaterstr.
+Fürth Rosenstr.
+Fürth Katharinenstr.
+Fürth Stadthalle Süd
+Fürth Maxbrücke
+Fürth Grüner Markt
+Fürth Rathaus
+Fürth Stadttheater
+Fürth Kurgartenstr.
+Fürth Jakobinenstr.
+Fürth Mondstr.
+Fürth Mariensteig
+Fürth Cineplex
+Fürth Kirchenstr.
+Fürth Luisenstr.
+Fürth Weiherstr.
+Fürth Finkenstr.
+Fürth Klinikum
+Fürth Klinikum Ost
+Fürth Klinikum West
+Fürth Südstadtpark
+Fürth Merkurstr.
+Fürth Zeppelinstr.
+Fürth Fronmüllerstr.
+Fürth Hans-Bornkessel-Str.
+Fürth Amalienstr.
+Fürth Paulskirche
+Fürth Frauenstr.
+Fürth Simonstr.
+Fürth Stresemannplatz
+Fürth Ritterstr.
+Fürth Sonnenstr.
+Fürth Leyher Str.
+Fürth Balbiererstr.
+Fürth Holzstr.
+Fürth Kaiserstr.
+Fürth Flößaustr.
+Fürth Kornstr.
+Fürth Steubenstr.
+Fürth Ludwigstr.
+Fürth Saarburger Str.
+Fürth Süd
+Fürth Benno-Strauß-Str.
+Fürth Europaallee
+Fürth Am Weidiggraben
+Fürth Gartenkolonie Südstadt I
+Fürth infra
+Fürth Dr.-Frank-Str.
+Fürth Magazinstr.
+Fürth John-F.-Kennedy-Str.
+Fürth G.-Hauptmann-Str.
+Fürth Thomas-Mann-Str.
+Fürth Westvorstadt
+Fürth Reichsbodenweg
+Fürth R.-v.-Aldebert-Str.
+Fürth Pillauer Str.
+Fürth Stiftungsstr.
+Fürth Scherbsgrabenbäder
+Fürth Billinganlage
+Fürth Heimgartenstr.
+Fürth Heuweg
+Fürth Conrad-Stutz-Weg
+Fürth Mühltalstr.
+Fürth Taubenweg
+Fürth Lucas-Cranach-Str.
+Fürth Eigenes Heim
+Fürth Riemenschneiderstr.
+Fürth Feldstr.
+Fürth Robert-Koch-Str.
+Fürth Jakob-Henle-Str/Klinikum
+Fürth Pfeiferstr.
+Fürth Hansastr.
+Fürth Leibnizstr.
+Fürth Hard-/Soldnerstr.
+Fürth Breslauer Str.
+Fürth Hardhöhe
+Fürth Berlinstr.
+Fürth Am Grünerpark
+Fürth Hardhöhe Wende
+Fürth Manfred-Roth-Str.
+Fürth Bremerstaller Wiesen
+Fürth Dieter-Streng-Str.
+Fürth Am Grünen Weg
+Fürth Steinfeldweg
+Fürth Schilfweg
+Fürth Wiesenstr.
+Fürth Am Kavierlein
+Fürth Poppenreuther Str.
+Fürth Friedhof
+Fürth Friedhof Nordeingang
+Fürth Seeackerstr.
+Fürth Kronacher Str.
+Fürth Rudolf-Schiestl-Str.
+Fürth Storchenstr.
+Fürth Flurstr.
+Fürth Dieselstr.
+Fürth Vach
+Nürnberg Weißer Turm
+Fürth Stadtgrenze
+Nürnberg Muggenhof
+Nürnberg Eberhardshof
+Nürnberg Dooser Str.
+Nürnberg Sündersbühl
+Nürnberg Richard-Wagner-Str.
+Nürnberg Karl-Martell-Str.
+Nürnberg Schieräckerstr.
+Nürnberg Oststr.
+Nürnberg Leyh Kirche
+Nürnberg Großmarkt
+Nürnberg Tuchenbacher Str.
+Nürnberg Scheinfelder Str.
+Nürnberg Lenkersheimer Str.
+Nürnberg Virnsberger Str.
+Nürnberg Virnsberg.Str. Wende
+Nürnberg Äußere Buttendorfer Str.
+Nürnberg Rothenb./Sigmundstr.
+Nürnberg Diebacher Straße
+Nürnberg Kleinreuth b. Schw.
+Nürnberg Clarsbacher Str.
+Nürnberg Lehrberger Str.
+Nürnberg Züricher Str.
+Nürnberg Haeselerstr.
+Nürnberg Herderstr.
+Nürnberg Rothenburger/V.d.Tann-Str.
+Nürnberg Flachslander Str.
+Nürnberg Regelsbacher Str.
+Nürnberg Vershofenstr.
+Nürnberg Höfener Spange
+Nürnberg Großreuth b. Schweinau
+Nürnberg Spessartstr.
+Nürnberg Marburger Str.
+Nürnberg Dorfäckerstr.
+Nürnberg Binzenweg
+Nürnberg Neunhof Schule
+Nürnberg Am Weiher
+Nürnberg Wetzlarer Str.
+Nürnberg Sonntagsweg
+Nürnberg Wehrenreuthweg
+Nürnberg Dorffeldstr.
+Nürnberg Bienweg
+Nürnberg Kranichstr.
+Nürnberg Schniegling
+Nürnberg Frauentaler Weg
+Nürnberg Brettergartenstr.
+Nürnberg Krematorium
+Nürnberg Kriegsopfersiedlung
+Nürnberg Wetzendorf West
+Nürnberg Wetzendorf Ost
+Nürnberg Dortmunder Str.
+Nürnberg Großgründlach Nord
+Nürnberg Hansengarten
+Nürnberg Quellweg
+Nürnberg Großgründlach Mitte
+Nürnberg Großgründlach Schule
+Nürnberg Großgründl. Hauptstr.
+Nürnberg Am Steig
+Nürnberg Schmalau
+Nürnberg Steinacher Str.
+Nürnberg Boxbergweg
+Nürnberg Erich-Ollenhauer-Str.
+Nürnberg Boxdorf
+Nürnberg Reutles
+Nürnberg Boxdorf Nord
+Nürnberg Moosäckerstr.
+Nürnberg Neunhof
+Nürnberg Kriegerdenkmal
+Nürnberg Am Kressenstein
+Nürnberg Kraftshof
+Nürnberg Kraftshof Süd
+Nürnberg Buch Nord
+Nürnberg Buch Süd
+Nürnberg Seeweg
+Nürnberg Am Wegfeld
+Nürnberg Almoshof
+Nürnberg Almoshof Schule
+Nürnberg Lohe
+Nürnberg Flughafenstr.
+Nürnberg Am Bäumling
+Nürnberg Wilhelmshavener Str.
+Nürnberg Schweriner Str.
+Nürnberg Kleinreuth h.d.V.
+Nürnberg Langer Steig
+Nürnberg Thon
+Nürnberg Cuxhavener Str.
+Nürnberg Schleswiger Str.
+Nürnberg Schnepfenreuth
+Nürnberg Kieler Str.
+Nürnberg Berufsförderungswerk
+Nürnberg Buch Mitte
+Nürnberg Bamberger Str.
+Nürnberg Walter-Braun-Str.
+Nürnberg Reutleser Str.
+Nürnberg Wertheimer Str.
+Nürnberg Baststraße
+Nürnberg Röhrichtweg
+Nürnberg Kilianstr.
+Nürnberg Rotfuchsstr.
+Nürnberg Michaelstr.
+Nürnberg Ostbahnhof
+Nürnberg Erlenstegen
+Nürnberg Johann-Sperl-Str.
+Nürnberg Höfles Ost
+Nürnberg Höfles West
+Nürnberg Forchheimer Str.
+Nürnberg Waldemar-Klink-Str.
+Nürnberg Kleinreuther Weg
+Nürnberg Bucher Hauptstr.
+Nürnberg Ziegelstein
+Nürnberg Sylter Str.
+Nürnberg Lohestr.
+Nürnberg Herrnhütte
+Nürnberg Leipziger Platz
+Nürnberg Marienbuck
+Nürnberg Merianstr.
+Nürnberg Ziegelstein Nord
+Nürnberg Ziegelstein Süd
+Nürnberg Loher Moos
+Nürnberg Flataustr.
+Nürnberg Bessemerstr.
+Nürnberg Nordostbahnhof
+Nürnberg, Nordostbahnhof
+Nürnberg Senefelderstr.
+Nürnberg Tafelhalle
+Nürnberg Steinplattenweg
+Nürnberg Thumenberger Weg
+Nürnberg Platnersberg
+Nürnberg Klingenhof
+Nürnberg Bennostr.
+Nürnberg Paul-Moor-Schule
+Nürnberg Klingenhofstr.
+Nürnberg Martin-Albert-Str.
+Nürnberg Weiherhauser Str.
+Nürnberg Tucherhof
+Nürnberg Ernst-Heinkel-Weg
+Nürnberg Heroldsberger Weg
+Nürnberg Hofer Str.
+Nürnberg Thuisbrunner Str.
+Nürnberg Waldarbeitsschule
+Nürnberg Loeschweg
+Nürnberg Zum Felsenkeller
+Nürnberg Ohrwaschelweg
+Nürnberg Nuschelbergweg
+Nürnberg Siedlungswerk
+Nürnberg Paulusstein
+Nürnberg Hermann-Löns-Str.
+Nürnberg Buchenbühler Weg
+Nürnberg Schwendengarten
+Nürnberg Schleifweg
+Nürnberg Kurzer Steig
+Nürnberg Großreuth h. d. V.
+Nürnberg Stirnerstr.
+Nürnberg Nordostpark
+Nürnberg Neumeyerstr.
+Nürnberg Sieboldstr.
+Nürnberg Schafhofstr.
+Nürnberg Hiltpoltsteiner Str.
+Nürnberg Nordostpark Mitte
+Nürnberg Carl-von-Linde-Str.
+Nürnberg Theresienkrankenhaus
+Nürnberg Teutoburger Str.
+Nürnberg Leipziger Str.
+Nürnberg Dresdener Str.
+Nürnberg Spitalhof
+Nürnberg Hubertusstr.
+Nürnberg Tattersall
+Nürnberg Martha-Maria-Krkhs.
+Nürnberg Flughafen
+Nürnberg Weißer Weg
+Nürnberg Dr.C-Schmid-Str.
+Nürnberg Cargo-Zentrum
+Nürnberg Nordostpark Ost
+Nürnberg Sieboldstr. Schleife
+Nürnberg Luftamt Nordbayern
+Nürnberg Rehhof
+Nürnberg Laufamholz
+Nürnberg Goldhammer
+Nürnberg Lechnerstr.
+Nürnberg Mögeldorf
+Nürnberg Mögeldorf Bf
+Nürnberg Balthas.-Neumann-Str.
+Nürnberg Siedlerstr.
+Nürnberg Tiergarten
+Nürnberg Akademie d.b.K.
+Nürnberg Wohnstift a. T.
+Nürnberg Zerzabelshof Ost
+Nürnberg Wohnanl.Regensb.Str.
+Nürnberg August-Meier-Heim
+Nürnberg Regensburger Str.
+Nürnberg Hans-Kalb-Str.
+Nürnberg Sportanlage FCN
+Nürnberg Valznerweiher
+Nürnberg Ayrerstr.
+Nürnberg Waldlust
+Nürnberg Schedelstr.
+Nürnberg Zerzabelshof Mitte
+Nürnberg Bingstr.
+Nürnberg Fallrohrstr.
+Nürnberg Eckenstr.
+Nürnberg Ben-Gurion-Ring
+Nürnberg Ziegenstr.
+Nürnberg Waldstr.
+Nürnberg Prutzstr.
+Nürnberg Hüttenbacher Str.
+Nürnberg Happurger Str.
+Nürnberg Grünreuther Str.
+Nürnberg Brandstr.
+Nürnberg Hammer
+Nürnberg Henfenfelder Str.
+Nürnberg Henfenf. Str. Wende
+Nürnberg Freilandsiedlung
+Nürnberg Weintraubengasse
+Nürnberg Egidienplatz
+Nürnberg Heilig-Geist-Spital
+Nürnberg Messe
+Nürnberg Langwasser Nord
+Nürnberg Scharfreiterring
+Nürnberg Gemeinschaftshaus
+Nürnberg Langwasser Süd
+Nürnberg Hauptmarkt
+Nürnberg Dutzendteich Bf
+Nürnberg Dutzendteich Bahnhof
+Nürnberg Rathaus
+Nürnberg Maxtor
+Nürnberg Laufer Tor
+Nürnberg Zollhaus Gaststätte
+Nürnberg Innerer Laufer Platz
+Nürnberg Bauernfeindstr.
+Nürnberg Neuselsbrunn
+Nürnberg Nötteleinweg
+Nürnberg Neulandsiedlung
+Nürnberg Werkvolksiedlung
+Nürnberg Am Zollhaus
+Nürnberg Georg-Ledebour-Schule
+Nürnberg Imbuschstr.
+Nürnberg G.Ledebour/Liegn.Str.
+Nürnberg Burgstr.
+Nürnberg Gleiw./Liegnitz.Str.
+Nürnberg Moorenbrunnfeld
+Nürnberg G.Ledebour/Gleiw.Str.
+Nürnberg Jauerstr.
+Nürnberg Hirschberger Str.
+Nürnberg Langwasser Bad
+Nürnberg Groß-Strehlitz. Str.
+Nürnberg Langwasser Mitte
+Nürnb. Langwasser Mitte
+Nürnberg Kafkastr.
+Nürnberg Zuckmayerweg
+Nürnberg Annette-Kolb-Str.
+Nürnberg Tucholskystr.
+Nürnberg Hans-Fallada-Str.
+Nürnberg Max-Grundig-Platz
+Nürnberg Beuthener Str.
+Nürnberg Zeppelinstr.
+Nürnberg Poststr.
+Nürnberg Thomas-Mann-Str.
+Nürnberg Herzogstr.
+Nürnberg Poststr. Wende
+Nürnberg Fischbach
+Nürnberg, Fischbach Bahnhof
+Nürnberg Fischbach Bahnhof Wende
+Nürnberg Sportanlage Fischbach
+Nürnberg Altenfurter Straße
+Nürnberg Flachsröste
+Nürnberg Am Schlag
+Nürnberg Bärenbühlgraben
+Nürnberg Am Bauernfeld
+Nürnberg Pellerschloss
+Nürnberg Holzstatt
+Nürnberg Hutbergstr.
+Nürnberg Zum Schüsselstein
+Nürnberg Anzengruberstr.
+Nürnberg Am Hartgraben
+Nürnberg Raudtener Str.
+Nürnberg Löwenberger Str.
+Nürnberg Oelser Str.
+Nürnberg Streubuck
+Nürnberg Moorenbrunn
+Nürnberg Hermann-Kolb-Str.
+Nürnberg Welfenstr.
+Nürnberg Von-Soden-Str.
+Nürnberg Freystädter Str.
+Nürnberg Sprottauer Str.
+Nürnberg Saganer Str.
+Nürnberg Brieger Str.
+Nürnberg Brunner Berg
+Nürnberg Brunn Mitte
+Nürnberg Brunn Ost
+Nürnberg Brunn Schleife
+Nürnberg Brunner Str.
+Nürnberg GNF Am Tower
+Nürnberg Birnthon
+Nürnberg Birnthon West
+Nürnberg GNF Th.-Dachser-Str.
+Nürnberg GNF Am Flachmoor
+Nürnberg GNF-Südallee
+Nürnberg Hasenbuck
+Nürnberg Gibitzenhof
+Nürnberg Worzeldorfer Str.
+Nürnberg Harnischschlag
+Nürnberg Kornburger Str.
+Nürnberg Schwander Str.
+Nürnberg Herpersdorfer Str.
+Nürnberg Falkenheim
+Nürnberg Saarbrückener Str.
+Nürnberg Südfriedhof
+Nürnberg Finkenbrunn
+Nürnberg Am Ludwigskanal
+Nürnberg Rotterdamer Str.
+Nürnberg Bremer Str.
+Nürnberg Lechstr.
+Nürnberg Hamburger Str.
+Nürnberg Am Rangierbahnhof
+Nürnberg Trafowerk
+Nürnberg Minervaplatz
+Nürnberg Bremer Str. Wende
+Nürnberg Heistersteg
+Nürnberg Sportplatz Süd
+Nürnberg An der Marterlach
+Nürnberg Alpenrosenweg
+Nürnberg Wacholderweg
+Nürnberg Akeleiweg
+Nürnberg Oskar-v.-Miller-Str.
+Nürnberg Mülheimer Str.
+Nürnberg Koblenzer Str.
+Nürnberg Preßburger Str.
+Nürnberg Zollamt-Hafen
+Nürnberg Rheinstr.
+Nürnberg Bochumer Str.
+Nürnberg Donaustr.
+Nürnberg Maiach
+Nürnberg Linzer Str.
+Nürnberg Duisburger Str.
+Nürnberg Triester Str. Nord
+Nürnberg Triester Str. Süd
+Nürnberg, Wertachstraße
+Nürnberg Koperstr.
+Nürnberg, Katzwang Bahnhof
+Nürnberg Katzwang
+Nürnberg Katzwang Sportplatz
+Nürnberg Katzwang Süd Wende
+Nürnberg Kornburg Nord
+Nürnberg Vorjurastr.
+Nürnberg Kellerstr.
+Nürnberg Appelstr.
+Nürnberg Lausitzer Str.
+Nürnberg Katzwang Hallenbad
+Nürnberg Katzwang Mitte
+Nürnberg Hugo-Wolf-Str.
+Nürnberg Strawinskystr.
+Nürnberg Katzwang Süd
+Nürnberg Greuth
+Nürnb. Kornburg Schleife
+Nürnberg Kornburg Süd
+Nürnberg Kornburg Mitte
+Nürnberg Schenkendorfstr.
+Nürnberg Worzeldorf Hauptstr.
+Nürnberg Bayernlinie
+Nürnberg Habermannstr.
+Nürnberg Worzeldorf Schule
+Nürnberg Herpersdorf
+Nürnberg Memminger Str.
+Nürnberg Gaulnhofen
+Nürnberg Roter Bühl
+Nürnberg An der Bergleite
+Nürnberg Sigmund-Freud-Str.
+Nürnberg Stockweiher
+Nürnberg Weiherhaus
+Nürnberg Propsteistr.
+Nürnberg Königshof
+Nürnberg Föhrenbuck
+Nürnberg Steinbrüchlein
+Nürnberg Röthestr.
+Nürnberg Hordlerstr.
+Nürnberg Burkhardtstr.
+Nürnberg Pillenreuth
+Nürnberg Hohe Marter
+Nürnberg Stein
+Nürnberg Reichelsdorfer Keller
+Nürnberg Reichelsdorf
+Nürnberg Reichelsdorf Bahnhof
+Nürnberg Eibach
+Nürnberg Eibach Bahnhof
+Nürnberg Eibach Bf / Hafenstr.
+Nürnberg Pommernstr./BBW
+Nürnberg Eichstätter Platz
+Nürnberg Solnhofener Str.
+Nürnberg Waldstromerstr.
+Nürnberg Lohhof
+Nürnberg Krottenbach Nord
+Nürnberg Krottenbach Mitte
+Nürnberg Drahtzieherstr.
+Nürnberg Aldringenstr.
+Nürnberg Auf der Schanz
+Nürnberg Piccoloministr.
+Nürnberg Reichelsd. Hauptstr.
+Nürnberg Charkovstr.
+Nürnberg Prager Str.
+Nürnberg Glasgowstr.
+Nürnberg Geraer Str.
+Nürnberg Skopjestr.
+Nürnberg Koppenhof Wende
+Nürnberg Mühlfeldstr.
+Nürnberg Holzheim
+Nürnberg Mühlhof
+Nürnberg Reichelsdorf Süd
+Nürnberg Furtenbachstr.
+Nürnberg Holzheim Schleife
+Nürnberg Altmühlweg
+Nürnberg Koppenhof
+Nürnberg Einsteinring
+Nürnberg Königshofer Weg
+Nürnberg Eibach Mitte
+Nürnberg Castellstr.
+Nürnberg Schußleitenweg
+Nürnberg Schulzentr. Südwest
+Nürnberg Heidestr.
+Nürnberg Zwieselbachweg
+Nürnberg Jägerstr.
+Nürnberg Röthenb. Hauptstr.
+Nürnberg Ellingstr.
+Nürnberg Kammersteiner Str.
+Nürnberg Hohe Marter Süd
+Nürnberg Röthenbach
+Nürnberg Schnelldorfer Str.
+Nürnberg Tauberstr.
+Nürnberg Sinbronner Str.
+Nürnberg Rangaustr.
+Nürnberg Großkraftwerk
+Nürnberg Hügelstr.
+Nürnberg Glafeystr.
+Nürnberg Bibertstr.
+Nürnberg Hohenecker Weg
+Nürnberg Cadolzburger Str.
+Nürnberg Püttlachweg
+Nürnberg Rezatweg
+Nürnberg Uffenheimer Str.
+Nürnberg Alte Wallensteinstr.
+Nürnberg Marconistr.
+Nürnberg Tillystr.
+Nürnberg Am Tillypark
+Nürnberg Kirchhoffstr.
+Nürnberg Edisonstr.
+Nürnberg Stein Schloss
+Nürnberg Feuchtwanger Str.
+Nürnberg Landesgewerbeanstalt
+Nürnberg Willstätterstr.
+Nürnberg Südwestpark
+Nürnberg Insinger Str.
+Nürnberg Kuglerstr.
+Nürnberg Hansastr.
+Nürnberg Bucher Str./Nordring
+Nürnberg Juvenellstr.
+Nürnberg Friedrich-Ebert-Pl.
+Nürnberg Tiergärtnertor
+Nürnberg Hallertor
+Nürnberg Westfriedhof
+Nürnberg Julienstr.
+Nürnberg St. Johannisfriedhof
+Nürnberg Hallerstr.
+Nürnberg Kaulbachplatz
+Nürnberg Westfriedh. Kreuzung
+Nürnberg Lerchenbühlstr.
+Nürnberg Röthensteig
+Nürnberg Großweidenmühlstr.
+Nürnberg Klinikum Nord
+Nürnberg Lange Zeile
+Nürnberg Klinikum Süd
+Nürnberg Arno-Hamburger-Str.
+Nürnberg Nordwestring
+Nürnberg Stadtpark
+Nürnberg Maxfeld
+Nürnberg, Maxfeld
+Nürnberg Rathenauplatz
+Nürnberg Wöhrder Wiese
+Nürnberg Stresemannplatz
+Nürnberg Deichslerstr.
+Nürnberg Tauroggenstr.
+Nürnberg Maxfeldstr.
+Nürnberg Rennweg
+Nürnberg Schoppershof
+Nürnberg Welserstr.
+Nürnberg Rollnerstr./Nordring
+Nürnberg Martinskirche
+Nürnberg Friedenstr.
+Nürnberg Tellstr.
+Nürnberg Schopenhauerstr.
+Nürnberg Hintermayrstr.
+Nürnberg Schillerplatz
+Nürnberg Wöhrd
+Nürnberg Harmoniestr.
+Nürnberg Bismarckschule
+Nürnberg Bauvereinstr.
+Nürnberg Sebastianspital
+Nürnberg Heinemannbrü.
+Nürnberg Technische Hochschule
+Nürnberg Frankenstadion
+Nürnberg Gleißhammer
+Nürnberg, Gleißhammer Bahnhof
+Nürnberg Stephanstr.
+Nürnberg Rosa-Luxemburg-Pl.
+Nürnberg Dürrenhof
+Nürnberg Tullnaupark
+Nürnberg Marientor
+Nürnberg Marientunnel
+Nürnberg Arminiusstr.
+Nürnberg Marthastr.
+Nürnberg Business Tower
+Nürnberg Harsdörfferplatz
+Nürnberg Peterskirche
+Nürnberg Scharrerstr.
+Nürnberg Immelmannstr.
+Nürnberg Fliegerstr.
+Nürnberg Dutzendteich
+Nürnberg Luitpoldhain
+Nürnberg Meistersingerhalle
+Nürnberg Platz d. Opfer d. F.
+Nürnberg Holzgartenstr.
+Nürnberg Ostring
+Nürnberg Gleißhammerstr.
+Nürnberg Passauer Str.
+Nürnberg Marienbader Str.
+Nürnberg Komotauer Str.
+Nürnberg Bestelmeyerstr.
+Nürnberg Burgerstr.
+Nürnberg Cramergasse
+Nürnberg Untere Baustr.
+Nürnberg Köhnstr.
+Nürnberg Doku-Zentrum Nord
+Nürnberg Doku-Zentrum
+Nürnberg Volksfestplatz
+Nürnberg Bayernstr.
+Nürnberg Maffeiplatz
+Nürnberg Opernhaus
+Nürnberg Hbf
+Nürnberg Lorenzkirche
+Nürnberg Gleißbühlstr.
+Nürnberg Kopernikusplatz
+Nürnberg Celtisplatz
+Nürnberg Landgrabenstr.
+Nürnberg Heynestr.
+Nürnberg Christuskirche
+Nürnberg Aufseßplatz
+Nürnberg Hummelsteiner Weg
+Nürnberg Schweiggerstr.
+Nürnberg Brehmstr.
+Nürnberg Alemannenstr.
+Nürnberg Dianaplatz
+Nürnberg Lothringer Str.
+Nürnberg Siemensstr.
+Nürnberg Schuckertstr.
+Nürnberg Humboldtstr.
+Nürnberg Wodanstr.
+Nürnberg Widhalmstr.
+Nürnberg Tristanstraße
+Nürnberg Platenstr.
+Nürnberg Löffelholzstr.
+Nürnberg Vogelweiherstr.
+Nürnberg Markgrafenstr.
+Nürnberg Frankenstr.
+Nürnberg, Frankenstraße
+Nürnberg Tiroler Str.
+Nürnberg Hiroshimaplatz
+Nürnberg Schweinau
+Nürnberg St. Leonhard
+Nürnberg Leopoldstr.
+Nürnberg Schweinau Bf
+Nürnberg Sandreuth
+Nürnberg Steinbühl
+Nürnberg, Steinbühl Bahnhof
+Nürnberg Kohlenhof
+Nürnberg Dr.-Luppe-Platz
+Nürnberg Sandreuthstr.
+Nürnberg Waldaustr.
+Nürnberg Gustav-Adolf-Str.
+Nürnberg, Gustav-Adolf-Str.
+Nürnberg Geisseestr.
+Nürnberg Dieselstr.
+Nürnberg Hohe Marter Nord
+Nürnberg Jaeckelstr.
+Nürnberg Industriestr.
+Nürnberg Maybachstr.
+Nürnberg Kreutzerstr.
+Nürnberg Geisseestr. Mitte
+Nürnberg Maximilianstr.
+Nürnberg Bärenschanze
+Nürnberg Gostenhof
+Nürnberg Plärrer
+Nürnberg Plärrer Ost
+Nürnberg Rothenburger Str.
+Nürnberg Obere Turnstr.
+Nürnberg Dr. Erler Kliniken
+Nürnberg Deutschherrnstr.
+Nürnberg Gostenhof West
+Nürnberg Gostenhof Ost
+Nürnberg Austr.
+Nürnberg Heinrichstr.
+Nürnberg Blücherstr.
+Nürnberg Westpark
+Nürnberg Frühlingstr.
+Nürnberg Dunantstr.
+Fürther Freiheit
