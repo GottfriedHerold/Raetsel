@@ -1,5 +1,8 @@
 DICTFILE = "/usr/share/dict/ngerman"
-DORTMUNDFILE = "/home/gottfried/HstDortmund.txt"
+# DORTMUNDFILE = "/home/gottfried/HstDortmund.txt"
+NUERNBERGDICT = "../Nuernberg/Haltestellen_VGN.txt"
+
+COMMONPREFIXES = ["fuerth", "nuernberg"]
 
 def normalizeEntry(inputstr: str) -> str:
     """
@@ -48,11 +51,20 @@ def normalizeEntry(inputstr: str) -> str:
     x = x.replace("ï", "i")
     x = x.replace("ø", "o")
     x = x.replace("æ", "ae")
-
+    x = x.replace(")", "")
+    x = x.replace("(", "")
+    x = x.replace("/", "")
 
     if not x.isascii():
         return ""
-    assert x.isalnum()
+    if not x.isalnum():
+        print(x)
+        assert False
+    # assert x.isalnum()
+
+    for prefix in COMMONPREFIXES:
+        x = x.removeprefix(prefix)
+    
     return x
 
 
@@ -162,7 +174,9 @@ def positionfilter(position:int, options:str):
 # d = filter(d, containfilter("abba",1))
 # print(d)
 
-DICT = createfromname(DICTFILE)
+VGN = createfromname(NUERNBERGDICT)
+
+# DICT = createfromname(DICTFILE)
 # BIGDICT = createfromname("german.dic", "latin-1")
 
 #d = filter(BIGDICT, positionfilter(1,"a"))
