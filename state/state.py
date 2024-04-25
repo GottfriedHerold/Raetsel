@@ -117,6 +117,13 @@ class State:
         self.unfiltered_dicts[i-1].make_inactive()
         self.filtered_dicts[i-1] = []  # Do this unconditionally
 
+    def toggle_dict(self, i: int):
+        assert 1 <= i <= len(self.dict_specs)
+        if self.unfiltered_dicts[i-1].is_active:
+            self.deactivate_dict(i)
+        else:
+            self.activate_dict(i)
+
     def delete_dict(self, i: int):
         """
         deletes the i'th (1-indexed) input dict

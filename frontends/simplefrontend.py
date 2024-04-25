@@ -1,15 +1,22 @@
 from state import State
 from filters import Filter, FilterMaker, LengthFilterMin, LengthFilterExact, LengthFilterMax, ContainsFilterMaker, PositionFilterMaker, PatternFilterMaker, RegexpFilterMaker, MorseFilterMaker
 import re
+from dictmanager import normalizeStreets, normalizeToAscii, DictSpecification
 
 _RUN_EXIT = 0
 _RUN_MAIN = 1
 _RUN_DICTS = 2
 _RUN_GROUPS = 3
 
+PRETTYWIDTH = 300
 DISPLAY_COLUMNS = 8
 
 FILTERS: list[FilterMaker] = [LengthFilterExact, LengthFilterMax, LengthFilterMin, ContainsFilterMaker, PositionFilterMaker, PatternFilterMaker, MorseFilterMaker, RegexpFilterMaker]
+NORMALIZERS = {"Prepropress strees names": normalizeStreets,
+               "Normalize Umlauts et al.": normalizeToAscii}
+
+def wait_for_enter():
+    input("Press enter to continue.")
 
 class SimpleFrontEnd:
     def __init__(self):
@@ -20,15 +27,22 @@ class SimpleFrontEnd:
     def pretty_print_dict(cls, d: list[str]):
         if len(d) == 0:
             print("***NO ENTRY MATCHES THE FILTERS***")
-        elif len(d) <= 20:
+        elif len(d) <= 10:
             for entry in d:
                 print(entry)
         else:
+            max_len = max([len(entry) for entry in d]) + 3
+            words_per_column = PRETTYWIDTH // max_len
+            # print(max_len, words_per_column)
+            # wait_for_enter()
+            if words_per_column == 0:
+                words_per_column = 1
             for index in range(len(d)):
-                sep = "\t\t\t"
-                if index % DISPLAY_COLUMNS == DISPLAY_COLUMNS-1:
+                sep = ""
+                if index % words_per_column == words_per_column-1:
                     sep = "\n"
-                print(d[index], end=sep)
+                print("{0:<{width}}".format(d[index], width=max_len), end=sep)
+            print("\n\n", end="")
 
 
 
@@ -77,6 +91,23 @@ class SimpleFrontEnd:
             return None
         return read_number
 
+
+    def command_print(self, state: State, read_input: str):
+        dict_index = self.get_dict_index(state, read_input)
+        if dict_index is None:
+            return
+        self.pretty_print_dict(state.filtered_dicts[dict_index - 1])
+        wait_for_enter()
+
+    def command_save(self, state: State, read_input: str):
+        dict_index = self.get_dict_index(state, read_input)
+        if dict_index is None:
+            return
+        filename = input("Please enter filename: ")
+        with open(filename, "w") as f:
+            for word in state.filtered_dicts[dict_index - 1]:
+                f.write(word + "\n")
+        input("Success. Please press enter to continue.")
 
     def run_main(self, state: State) -> int:
         while True:
@@ -140,19 +171,10 @@ class SimpleFrontEnd:
                     state.set_max_errors(max_errors)
 
                 case 'p' if state.active:
-                    dict_index = self.get_dict_index(state, read_input)
-                    if dict_index is None:
-                        continue
-                    self.pretty_print_dict(state.filtered_dicts[dict_index-1])
+                    self.command_print(state, read_input)
 
                 case 's' if state.active:
-                    dict_index = self.get_dict_index(state, read_input)
-                    if dict_index is None:
-                        continue
-                    filename = input("Please enter filename: ")
-                    with open(filename, "w") as f:
-                        for word in state.filtered_dicts[dict_index-1]:
-                            f.write(word + "\n")
+                    self.command_save(state, read_input)
 
                 case 'f':
                     read_input = read_input[1:]
@@ -160,9 +182,11 @@ class SimpleFrontEnd:
                         read_num = int(read_input)
                     except ValueError as e:
                         print("Invalid input")
+                        wait_for_enter()
                         continue
                     if not (1 <= read_num <= len(FILTERS)):
                         print("Invalid input")
+                        wait_for_enter()
                         continue
                     new_fil_maker = FILTERS[read_num-1]
                     new_fil = filter_from_FilterMaker(new_fil_maker)
@@ -173,6 +197,79 @@ class SimpleFrontEnd:
                 case _:
                     print(f"unrecognized input: {read_input}")
 
+    def run_dict(self, state: State):
+        while True:
+            state.validate()
+            state.sort_filters()
+            self.report_status(state)
+            print("\n\t\t***  Please select command: ***\n")
+            if not state.active:
+                print("a: Start evaluating filters", end="\t")
+            else:
+                print("a: Stop evaluating filters", end="\t")
+            print("r: Remove dict", end="\t\t\t")
+            print("t: (de)activate dict", end="\n")
+            print("f: Manage filters", end="\t\t")
+            print("g: Manage fuzzyness groups", end="\t")
+            print("d: Add dict", end="\n")
+
+            if state.active:
+                print("p: Print candidates", end="\t\t")
+                print("s: Save candidates to file", end="\n")
+
+            print("x: Exit", end="\n")
+
+            read_input = input()
+            if len(read_input) == 0:
+                continue
+            match read_input[0].lower():
+                case 'a':
+                    if state.active:
+                        state.make_inactive()
+                    else:
+                        state.make_active()
+                case "x":
+                    return _RUN_EXIT
+                case "f":
+                    return _RUN_MAIN
+                case "g":
+                    return _RUN_GROUPS
+                case 'p' if state.active:
+                    self.command_print(state, read_input)
+                case 's' if state.active:
+                    self.command_save(state, read_input)
+                case 't':
+                    dict_index = self.get_dict_index(state, read_input)
+                    if dict_index is None:
+                        continue
+                    state.toggle_dict(dict_index)
+                case 'r':
+                    dict_index = self.get_dict_index(state, read_input)
+                    if dict_index is None:
+                        continue
+                    state.delete_dict(dict_index)
+                case 'd':
+                    fn = input("Please enter filename: ")
+                    i = 1
+                    print("Select normalization")
+                    for normdesc, n in NORMALIZERS.items():
+                        print(f"    {i}: {normdesc}")
+                        i+=1
+                    sel = input("Please enter number: ")
+                    try:
+                        sel_index = int(sel)
+                        assert 1 <= sel_index <= len(NORMALIZERS)
+                    except Exception as E:
+                        print(f"Error {E}\nAborting.")
+                        continue
+                    selected_normalizer = list(NORMALIZERS.values())[sel_index-1]
+                    new_spec = DictSpecification(fn, normalizer=selected_normalizer)
+                    state.add_dict(new_spec)
+
+                case _:
+                    print(f"unrecognized input: {read_input}")
+
+
 
     def run(self, state: State):
         runner = _RUN_MAIN
@@ -181,6 +278,12 @@ class SimpleFrontEnd:
                 break
             elif runner == _RUN_MAIN:
                 runner = self.run_main(state)
+            elif runner == _RUN_DICTS:
+                runner = self.run_dict(state)
+            elif runner == _RUN_GROUPS:
+                print("This feature is not implemented yet.")
+                wait_for_enter()
+                runner = _RUN_MAIN
             else:
                 raise RuntimeError("Unknown runner")
 
@@ -207,9 +310,10 @@ class SimpleFrontEnd:
             unfilteredsize = state.unfiltered_dicts[i].size
             filteredsize = len(state.filtered_dicts[i])
             if not state.active or not state.unfiltered_dicts[i].is_active:
-                s += f" ({unfilteredsize} entries)"
+                # s += f" ({unfilteredsize} entries)"
+                pass
             else:
-                s += f" ({filteredsize} out of {unfilteredsize} many entries)"
+                s += f" ({filteredsize} out of {unfilteredsize} many entries pass the filters)"
             print(s)
         self.printseps()
         if len(state.selected_filters) == 0:
