@@ -140,7 +140,7 @@ PatternFilterMaker = _PatternFilterMakerMaker.make_FilterMaker()
 
 class _RegexpFilterMakerMaker(FilterMakerMaker):
     description = "Match regular expression"
-    prompts = {"Enter regular expression required to match: ", str}
+    prompts = {"Enter regular expression required to match: ": str}
     num_args = 1
 
     @classmethod
