@@ -130,7 +130,7 @@ class SimpleFrontEnd:
                 print("p: Print candidates", end="\t\t")
                 print("s: Save candidates to file", end="\n")
 
-            print("Add filter:")
+            print("Add filter ('f1' means to enter the string 'f1', not the F1 key):")
             for i in range(len(FILTERS)):
                 print(f"    f{i+1}: {FILTERS[i]}")
 
