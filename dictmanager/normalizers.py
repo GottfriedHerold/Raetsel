@@ -1,4 +1,19 @@
-def normalizeToAscii(inputstr: str) -> str:
+
+def normalizeToAscii(inputstr: str) -> list[str]:
+    out = [inputstr]
+    if "/" in inputstr:
+        out += inputstr.split("/")
+    if " " in inputstr:
+        out += inputstr.split(" ")
+
+    real_out = []
+    for w in out:
+        real_out += normalizeToAscii2(w)
+    return real_out
+
+
+
+def normalizeToAscii2(inputstr: str) -> list[str]:
     """
     normalizes input string by lowercasing, replacing certain umlauts and removing punctuation.
     """
@@ -13,6 +28,7 @@ def normalizeToAscii(inputstr: str) -> str:
     x = x.replace(".", "")
     x = x.replace(":", "")
     x = x.replace(",", "")
+    x = x.replace("+", "")
 
     x = x.replace("â", "a")
     x = x.replace("à", "a")
@@ -49,14 +65,46 @@ def normalizeToAscii(inputstr: str) -> str:
     x = x.replace("(", "")
     x = x.replace("/", "")
 
+    if len(x) == 0:
+        return []
+
     if not x.isascii():
         return ""
     if not x.isalnum():
-        print(x)
+        print(f"Failing string {x} of length {len(x)}.")
         assert False
     # assert x.isalnum()
 
     # for prefix in COMMONPREFIXES:
     #        x = x.removeprefix(prefix)
 
-    return x
+    return [x]
+
+def normalizeStreets(inputstr: str) -> str | list[str]:
+    inputs_normalized = normalizeToAscii(inputstr)
+
+    if not inputstr:
+        return []
+
+    out = inputs_normalized[:]
+
+    for normalized_input in inputs_normalized:
+        # Note "X" cannot appear in normalized_input, because the latter is lower-cased.
+        if normalized_input.endswith("strasse"):
+            out += [(normalized_input+"X").replace("strasseX", "str")]
+        if normalized_input.endswith("str"):
+            out += [(normalized_input + "X").replace("strX", "strasse")]
+
+        if normalized_input.endswith("hbf"):
+            out += [(normalized_input + "X").replace("hbfX", "hauptbahnhof")]
+
+        if normalized_input.endswith("hauptbahnhof"):
+            out += [(normalized_input + "X").replace("hauptbahnhofX", "hbf")]
+
+        if normalized_input.endswith("bf"):
+            out += [(normalized_input + "X").replace("bfX", "bahnhof")]
+
+        if normalized_input.endswith("bahnhof"):
+            out += [(normalized_input + "X").replace("bahnhofX", "bf")]
+
+    return out

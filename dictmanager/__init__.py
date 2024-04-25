@@ -1,2 +1,2 @@
 from .manager import DictSpecification, UnfilteredDict
-from .normalizers import normalizeToAscii
+from .normalizers import normalizeToAscii, normalizeStreets

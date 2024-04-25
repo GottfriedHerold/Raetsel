@@ -81,17 +81,16 @@ class UnfilteredDict:
             with open(self.spec.path, "r", encoding=self.spec.encoding) as f:
                 lines = f.readlines()
                 for entry in lines:
-                    normalized_entry = normalizer(entry)
-                    if normalized_entry:
-                        if isinstance(normalized_entry, list):
-                            for x in normalized_entry:
-                                self.L += [x]
-                        else:
-                            self.L +=[normalized_entry]
+                    normalized_entries = normalizer(entry)
+                    if normalized_entries:
+                        self.L += normalized_entries
         except Exception as E:
             self.status = _STATUS_FAILURE
             self.error = E
             self.L = []
+        self.L = list(set(self.L)) # remove duplicates
+        self.L.sort()
+
 
     @property
     def size(self):
