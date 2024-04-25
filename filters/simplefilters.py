@@ -138,7 +138,7 @@ class _PatternFilterMakerMaker(FilterMakerMaker):
 
 PatternFilterMaker = _PatternFilterMakerMaker.make_FilterMaker()
 
-class _RegexpFilter(FilterMakerMaker):
+class _RegexpFilterMakerMaker(FilterMakerMaker):
     description = "Match regular expression"
     prompts = {"Enter regular expression required to match: ", str}
     num_args = 1
@@ -150,7 +150,7 @@ class _RegexpFilter(FilterMakerMaker):
             return compile_regexp.fullmatch(s) is not None
         return SimpleFilter(cond, f"Matches regexp {regexp}")
 
-RegexpFilterMaker = _PatternFilterMakerMaker.make_FilterMaker()
+RegexpFilterMaker = _RegexpFilterMakerMaker.make_FilterMaker()
 
 
 class MorseFilter(Filter):
