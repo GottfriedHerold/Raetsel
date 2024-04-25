@@ -12,8 +12,5 @@ STATE.validate()
 
 FRONTEND = SimpleFrontEnd()
 
-from frontends.simplefrontend import filter_from_FilterMaker
-from filters import LengthFilterExact
-
 if __name__ == "__main__":
     FRONTEND.run(STATE)
